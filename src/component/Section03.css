@@ -1,0 +1,50 @@
+.Section03{
+    font-family: 'Roboto', sans-serif;
+}
+.Section03-top{
+    display: flex;
+    width: 100%;
+}
+.New{
+    padding-left: 83px;
+    padding-top: 30px;
+}
+.Section03-top-right{
+    width: 100%;
+    padding-left: 800px;
+    padding-top: 70px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    padding-left: 40px;
+}
+.Section03-bottom{
+    width: 100%;
+    display: flex;
+}
+.Section03-bottom-left{
+    width: 20%;
+    padding-left: 20px;
+}
+.Section03-bottom-right{
+    width: 80%;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.product01{
+    display: flex;
+    border: 2px  whitesmoke;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 300px;
+    /* padding-left: 10px; */
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.card{
+    width: 200px;
+}

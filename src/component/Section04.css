@@ -1,0 +1,72 @@
+.section04{
+    background-image: url(../images/18591063.png);
+    color: gray;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    width: 97.57%;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.section04-top{
+    display: flex;
+}
+.section04-left{
+    width: 20%;
+    padding-right: 40px;
+}
+.section04-bottom{
+    padding-top: 40px;
+}
+.Get{
+    width: 80% ;
+}
+.Send{
+    padding-left: -5px;
+}
+.message-box {
+    position: absolute;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    padding-top: 0px;
+}
+
+.message-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .message-box .user-box {
+    position: relative;
+  }
+  
+  .message-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .message-box .user-box label {
+    position: absolute;
+    left: 0;
+    padding: px 0;
+    font-size: 16px;
+    color: gray;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .message-box .user-box input:focus ~ label,
+  .message-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: gray;
+    font-size: 20px;
+  }

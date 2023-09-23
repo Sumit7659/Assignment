@@ -1,0 +1,28 @@
+.navbar{
+    background-color:#191919;
+    font-family: 'Roboto', sans-serif;
+    height: 42px;
+    color: gray;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section{
+    display: flex;
+    padding-top: 9px;
+}
+.section01{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+
+}
+.navbar-link{
+    text-decoration: none;
+    color: gray;
+}
+.section02{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}

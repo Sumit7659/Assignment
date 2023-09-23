@@ -1,0 +1,73 @@
+.Section02{
+    background-color: black;
+    width: 100%;
+}
+
+.Fresh{
+    width: 689px;
+    height: 151px;
+    padding-left: 151px;
+    padding-top: 150px ;
+    border: 1px ;
+}
+.year{
+    width: 710px;
+    height: 144px;
+    padding-top: 100px;
+    padding-left: 424px;
+    border: 2px;
+}
+.Look{
+    width: 527px;
+    height: 103px;
+    padding-top: 50px;
+    padding-left: 187px;
+    border: 1px;
+    padding-bottom: 50px;
+}
+.Man{
+    width: 432px;
+    height: 645.95px;
+    position: absolute;
+    top: 5;
+    z-index: 1;
+}
+.Star{
+    width: 367px;
+    height: 371.51px;
+    border:1px;
+    position: relative;
+    left: 400px;
+}
+.Jacket{
+width: 177px;
+height: 16.2px;
+color:white;
+padding-left: 1400px;
+position: absolute;
+padding-top: 20px;
+
+}
+.Price{
+    width: 177px;
+height: 16.2px;
+color:white;
+padding-left: 1300px;
+position: absolute;
+}
+
+.Orange{
+    width: 1215px;
+    height: 354.4px;
+    position: absolute;
+    left: 440px;
+    z-index: 1;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    padding-left: 200px;
+    text-decoration: none;
+
+}

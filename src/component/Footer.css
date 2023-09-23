@@ -1,0 +1,10 @@
+.Footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    height: 30px;
+    font-size: 12px;
+    padding: 5px 0;
+}
