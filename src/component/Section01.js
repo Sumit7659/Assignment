@@ -5,7 +5,7 @@ import './Section01.css';
 
 function Section01() {
   const [click, setClick] = useState(false);
-  // no-unused-vars
+  no-unused-vars
   const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
