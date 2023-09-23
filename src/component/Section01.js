@@ -5,22 +5,23 @@ import './Section01.css';
 
 function Section01() {
   const [click, setClick] = useState(false);
-  // const [button, setButton] = useState(true);
+  // no-unused-vars
+  const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  // const showButton = () => {
-  //   if (window.innerWidth <= 960) {
-  //     setButton(false);
-  //   } else {
-  //     setButton(true);
-  //   }
-  // };
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
 
-  // useEffect(() => {
-  //   // showButton();
-  // }, []);
+  useEffect(() => {
+    showButton();
+  }, []);
 
   window.addEventListener('resize', showButton);
 
